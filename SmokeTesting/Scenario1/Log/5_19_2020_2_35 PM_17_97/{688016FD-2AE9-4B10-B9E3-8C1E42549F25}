@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Node name="messages"/>
+				<Prp name="name" type="S" value="ProjectTestItem1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{8F8466F5-EDA4-4466-983D-74CFD349C72F}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="43970.6083981481"/>
+				<Prp name="start time" type="D" value="43970.6078368519"/>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+			<Node name="row2">
+				<Node name="messages"/>
+				<Prp name="name" type="S" value="ProjectTestItem3"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{FC5E3B31-972C-49C4-93E6-FE7FD81FB2D9}"/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="end time" type="D" value="43970.6090743287"/>
+				<Prp name="start time" type="D" value="43970.6088132639"/>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Node name="row1">
+				<Node name="messages"/>
+				<Prp name="name" type="S" value="ProjectTestItem2"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{C6A183FA-02B7-450E-8E31-C47B6C826688}"/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="end time" type="D" value="43970.6088131829"/>
+				<Prp name="start time" type="D" value="43970.608398206"/>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="12.0">
+	<children>
+		<child name="Test1" key="{5198B5EB-E40C-4C0A-AAA3-72916C5066DE}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Test1.tcKDTest" />
+		</child>
+		<child name="Test2" key="{B97E4484-38EB-457C-BED0-C78C90FB56F9}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Test2.tcKDTest" />
+		</child>
+		<child name="OpenTicketScreen" key="{3A622B30-0131-4709-A668-A85744FE21BD}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="OpenTicketScreen.tcKDTest" />
+		</child>
+		<child name="Test3" key="{780152AF-6432-4BF6-AC52-62605FB64E69}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Test3.tcKDTest" />
+		</child>
+	</children>
+	<folders />
+</Root>

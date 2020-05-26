@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row3">
+				<Node name="messages"/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="details" type="S" value="{B56F9679-4E2C-4AE6-8851-1AE2A84E2EF4}"/>
+				<Prp name="end time" type="D" value="43971.7277101042"/>
+				<Prp name="name" type="S" value="ProjectTestItem3"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="43971.7267883796"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row0">
+				<Node name="messages"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{EE135D6D-89D5-400A-8935-B05049AF35C8}"/>
+				<Prp name="end time" type="D" value="43971.7259890046"/>
+				<Prp name="name" type="S" value="ProjectTestItem1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="43971.7252891667"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row2">
+				<Node name="messages"/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="details" type="S" value="{073203B9-9FE0-4FF7-8F31-173FFB077CA5}"/>
+				<Prp name="end time" type="D" value="43971.7267882755"/>
+				<Prp name="name" type="S" value="ProjectTestItem2"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="43971.7263274537"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row1">
+				<Node name="messages"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{5147A552-829A-4FCC-B841-1BCF3B8C2BE3}"/>
+				<Prp name="end time" type="D" value="43971.7263273843"/>
+				<Prp name="name" type="S" value="ProjectTestItem4"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="43971.7259890741"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="0"/>
+	</Node>
+</Nodes>

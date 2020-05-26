@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{17AA6A0A-4F97-4BEC-B9C5-0DACF2BC9A21}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Moniker="i21 Keyword Test Operationsi21 Framework for Keyword Test Operationi21 inc. Philippines1.0 testInitialize Framework" StringID="Operation: Initialize Framework&#13;&#10;Plug-in: i21 Framework for Keyword Test Operation (Version: 1.0 test, i21 inc. Philippines)">
+				<Data>
+					<Data>
+						<Description Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Set i21 defaul Sys browser Page" />
+					</Data>
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="paramPage" DefVarType="0" VarType="257" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Moniker="Keyword Test Operationsi21 Open Screen Keyword Test OperationiRely1.0 testOpen Screen" StringID="Operation: Open Screen&#13;&#10;Plug-in: i21 Open Screen Keyword Test Operation (Version: 1.0 test, iRely)">
+				<Data>
+					<Data>
+						<Description Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Open the screen from module and menu." />
+						<ModuleName Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Inventory" />
+						<MenuName Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Items" />
+					</Data>
+					<Parameters />
+				</Data>
+			</Operation>
+			<Operation Moniker="i21 Keyword Test Operationsi21 Custom Keyword Test Operationsi21 inc. Philippines1.0 testVerify Screen Shown" StringID="Operation: Verify Screen Shown&#13;&#10;Plug-in: i21 Custom Keyword Test Operations (Version: 1.0 test, i21 inc. Philippines)">
+				<Data>
+					<Data>
+						<Description Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Verify the screen frmfloatingsearch is open" />
+						<ScreenName Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="frmfloatingsearch" />
+						<FailError Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+					</Data>
+					<Parameters />
+				</Data>
+			</Operation>
+			<Operation Moniker="Keyword Test Operationsi21 Select Tab Keyword Test OperationiRely1.0 testSelect Tab" StringID="Operation: Select Tab&#13;&#10;Plug-in: i21 Select Tab Keyword Test Operation (Version: 1.0 test, iRely)">
+				<Data>
+					<Data>
+						<Description Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Defines the Select Tab." />
+						<Tab Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Pricing Level" />
+						<useItemId Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+					</Data>
+					<Parameters />
+				</Data>
+			</Operation>
+			<Operation Moniker="Keyword Test Operationsi21 Click Header Button Keyword Test OperationiRely1.0 testClick Header Button" StringID="Operation: Click Header Button&#13;&#10;Plug-in: i21 Click Header Button Keyword Test Operation (Version: 1.0 test, iRely)">
+				<Data>
+					<Data>
+						<Description Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Defines the button action." />
+						<button Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Close" />
+						<menu Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="" />
+						<useItemId Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+						<useMenu Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+					</Data>
+					<Parameters />
+				</Data>
+			</Operation>
+			<Operation Moniker="i21 Keyword Test Operationsi21 Custom Keyword Test Operationsi21 inc. Philippines1.0 testVerify Screen Closed" StringID="Operation: Verify Screen Closed&#13;&#10;Plug-in: i21 Custom Keyword Test Operations (Version: 1.0 test, i21 inc. Philippines)">
+				<Data>
+					<Data>
+						<Description Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Verify the screen frmfloatingsearch is closed" />
+						<ModuleName Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="0" ValueValue="0" />
+						<ScreenName Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="frmfloatingsearch" />
+						<FailError Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+					</Data>
+					<Parameters />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{F7BD6ADC-B1B7-4C68-A7EE-47AE5DE31497}" />
+	<Parameters Key="{B37D69A4-432D-4507-A097-F1A413BEEF28}" />
+</Root>

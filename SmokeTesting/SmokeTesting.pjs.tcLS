@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{137ff6b6-35e2-4979-8957-cc50f439f7ce}">
+				<Prp name="relpath" type="S" value="Scenario1\Scenario1.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{137FF6B6-35E2-4979-8957-CC50F439F7CE}"/>
+			</Node>
+			<Node name="{d6a203e2-4d62-4fe5-b24e-e4afd1f1bd67}">
+				<Prp name="relpath" type="S" value="Scenario1\Scenario1.mds.tcLS"/>
+			</Node>
+			<Node name="{d98ec099-e1f7-422c-acd7-d8801de8fd39}">
+				<Prp name="relpath" type="S" value="KeywordTests\KeywordTests.mds.tcLS"/>
+			</Node>
+			<Node name="envmngrlogs">
+				<Prp name="key" type="S" value="{36945599-A215-45FA-B270-4620F492A341}"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{C15BB221-2B20-46BB-9FF3-C4E1CCD63009}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

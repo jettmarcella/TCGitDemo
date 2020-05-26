@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 3">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="frmfloatingsearch: Screen is active and visible"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="43971.5683301852"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{5198B5EB-E40C-4C0A-AAA3-72916C5066DE}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Page is set"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="43971.5681048264"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Click Tab Details succesfully"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="43971.5684210764"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point y" type="I" value="556"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="547"/>
+					<Prp name="datetime" type="D" value="43971.2349377083"/>
+					<Prp name="click point x" type="I" value="115"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="187"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="565"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost/1910EV/#menu/IC&quot;).Panel(&quot;wrapper&quot;).Nav(0).Panel(1).Link(&quot;menu_257&quot;).TextNode(0)"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="44"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (64, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost/1910EV/#menu/IC&quot;).Panel(&quot;wrapper&quot;).Nav(0).Panel(1).Link(&quot;menu_257&quot;).TextNode(0)"/>
+			<Prp name="date" type="D" value="43971.5682729514"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="frmfloatingsearch: Screen is closed"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="43971.5686455903"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point y" type="I" value="234"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="226"/>
+					<Prp name="datetime" type="D" value="43971.2351706713"/>
+					<Prp name="click point x" type="I" value="367"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="383"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="242"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost/1910EV/#/CT/Contract?showSearch=true&amp;menuId=258&amp;moduleMenuId=257&amp;activeTab=Details&quot;).Panel(&quot;frmfloatingsearch&quot;).Panel(&quot;frmfloatingsearch_bodyWrap&quot;).Panel(&quot;frmfloatingsearch_body&quot;).Panel(&quot;form&quot;).Panel(&quot;form_bodyWrap&quot;).Panel(&quot;form_body&quot;).Panel(&quot;form_innerCt&quot;).Panel(&quot;form_targetEl&quot;).Panel(&quot;tabpanel&quot;).Panel(&quot;tabpanel_bodyWrap&quot;).Panel(&quot;tabbar&quot;).Panel(&quot;tabbar_body&quot;).Panel(&quot;tabbar_innerCt&quot;).Panel(&quot;tabbar_targetEl&quot;).Link(&quot;tab_3&quot;).TextNode(&quot;tab_btnInnerEl&quot;)"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="352"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (13, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost/1910EV/#/CT/Contract?showSearch=true&amp;menuId=258&amp;moduleMenuId=257&amp;activeTab=Details&quot;).Panel(&quot;frmfloatingsearch&quot;).Panel(&quot;frmfloatingsearch_bodyWrap&quot;).Panel(&quot;frmfloatingsearch_body&quot;).Panel(&quot;form&quot;).Panel(&quot;form_bodyWrap&quot;).Panel(&quot;form_body&quot;).Panel(&quot;form_innerCt&quot;).Panel(&quot;form_targetEl&quot;).Panel(&quot;tabpanel&quot;).Panel(&quot;tabpanel_bodyWrap&quot;).Panel(&quot;tabbar&quot;).Panel(&quot;tabbar_body&quot;).Panel(&quot;tabbar_innerCt&quot;).Panel(&quot;tabbar_targetEl&quot;).Link(&quot;tab_3&quot;).TextNode(&quot;tab_btnInnerEl&quot;)"/>
+			<Prp name="date" type="D" value="43971.5685340278"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point y" type="I" value="234"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="226"/>
+					<Prp name="datetime" type="D" value="43971.2350527778"/>
+					<Prp name="click point x" type="I" value="311"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="331"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="242"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost/1910EV/#/CT/Contract?showSearch=true&amp;menuId=258&amp;moduleMenuId=257&amp;activeTab=Costs&quot;).Panel(&quot;frmfloatingsearch&quot;).Panel(&quot;frmfloatingsearch_bodyWrap&quot;).Panel(&quot;frmfloatingsearch_body&quot;).Panel(&quot;form&quot;).Panel(&quot;form_bodyWrap&quot;).Panel(&quot;form_body&quot;).Panel(&quot;form_innerCt&quot;).Panel(&quot;form_targetEl&quot;).Panel(&quot;tabpanel&quot;).Panel(&quot;tabpanel_bodyWrap&quot;).Panel(&quot;tabbar&quot;).Panel(&quot;tabbar_body&quot;).Panel(&quot;tabbar_innerCt&quot;).Panel(&quot;tabbar_targetEl&quot;).Link(&quot;tab_2&quot;).TextNode(&quot;tab_btnInnerEl&quot;)"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="292"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (17, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost/1910EV/#/CT/Contract?showSearch=true&amp;menuId=258&amp;moduleMenuId=257&amp;activeTab=Costs&quot;).Panel(&quot;frmfloatingsearch&quot;).Panel(&quot;frmfloatingsearch_bodyWrap&quot;).Panel(&quot;frmfloatingsearch_body&quot;).Panel(&quot;form&quot;).Panel(&quot;form_bodyWrap&quot;).Panel(&quot;form_body&quot;).Panel(&quot;form_innerCt&quot;).Panel(&quot;form_targetEl&quot;).Panel(&quot;tabpanel&quot;).Panel(&quot;tabpanel_bodyWrap&quot;).Panel(&quot;tabbar&quot;).Panel(&quot;tabbar_body&quot;).Panel(&quot;tabbar_innerCt&quot;).Panel(&quot;tabbar_targetEl&quot;).Link(&quot;tab_2&quot;).TextNode(&quot;tab_btnInnerEl&quot;)"/>
+			<Prp name="date" type="D" value="43971.5683906366"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Click Tab Costs succesfully"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="43971.5685432523"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Screen title is correct"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="43971.5685622685"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 9">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Clicking Close button"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="43971.5686235301"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point y" type="I" value="243"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="datetime" type="D" value="43971.2349594907"/>
+					<Prp name="click point x" type="I" value="379"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="511"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="256"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost/1910EV/#menu/CT&quot;).Panel(&quot;wrapper&quot;).Panel(&quot;page_wrapper&quot;).Panel(0).Panel(0).Panel(0).Panel(0).Link(&quot;menu_258&quot;)"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="247"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (119, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;http://localhost/1910EV/#menu/CT&quot;).Panel(&quot;wrapper&quot;).Panel(&quot;page_wrapper&quot;).Panel(0).Panel(0).Panel(0).Panel(0).Link(&quot;menu_258&quot;)"/>
+			<Prp name="date" type="D" value="43971.5683006713"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>
