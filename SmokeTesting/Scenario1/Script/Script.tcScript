@@ -4,9 +4,6 @@
 		<child name="Unit1" key="{D0E3696C-4C19-4822-A763-2E70C0B7889B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Unit1.js" />
 		</child>
-		<child name="ProjectVariableSetup" key="{9D90E495-4D0D-4A8A-B134-DAA44E8E8619}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
-			<data path="..\..\..\..\..\..\Documents\iRely Workspace\i21_Repository\i21_TestComplete\i21KeywordProjectSuite\i21KeywordProject\Script\ProjectVariableSetup.js" />
-		</child>
 	</children>
 	<folders />
 </Root>

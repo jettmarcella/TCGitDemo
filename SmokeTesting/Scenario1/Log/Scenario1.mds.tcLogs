@@ -795,6 +795,15 @@
 				<Prp name="relpath" type="S" value="5_26_2020_10_07 AM_00_51\Description.tcLog"/>
 				<Prp name="status" type="I" value="1"/>
 			</Node>
+			<Node name="log idx=0086">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43977.7210828819"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{03CD9F6A-0A28-4222-8A93-FB87A700D1B4}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [OpenTicketScreen]"/>
+				<Prp name="relpath" type="S" value="5_26_2020_5_18 PM_21_561\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
