@@ -20,71 +20,7 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs">
-			<Node name="log idx=0000">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43970.4729574653"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{6C96669D-E21B-4641-B366-572A49651880}"/>
-				<Prp name="nameofroot" type="S" value="SmokeTesting"/>
-				<Prp name="relpath" type="S" value="5_19_2020_11_21 AM_03_525\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43970.4748676968"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{AA63A9A7-CBE1-4824-B432-65BADF3C3040}"/>
-				<Prp name="nameofroot" type="S" value="SmokeTesting"/>
-				<Prp name="relpath" type="S" value="5_19_2020_11_23 AM_48_570\Description.tcLog"/>
-				<Prp name="status" type="I" value="1"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43970.4810761111"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{C21E1FAB-91CD-4749-89F1-AEF21CF726E2}"/>
-				<Prp name="nameofroot" type="S" value="SmokeTesting"/>
-				<Prp name="relpath" type="S" value="5_19_2020_11_32 AM_44_976\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0003">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43970.4815160417"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{5C4E3022-CF39-4910-9DF6-A26BA5900B76}"/>
-				<Prp name="nameofroot" type="S" value="SmokeTesting"/>
-				<Prp name="relpath" type="S" value="5_19_2020_11_33 AM_22_986\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0004">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43970.7069300231"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{61A1FD01-39CA-42A7-98AB-F7300484397C}"/>
-				<Prp name="nameofroot" type="S" value="SmokeTesting"/>
-				<Prp name="relpath" type="S" value="5_19_2020_4_57 PM_58_754\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0005">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43970.7082059954"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{18B5140E-7173-4D8D-8757-FF72AB5B9AAF}"/>
-				<Prp name="nameofroot" type="S" value="SmokeTesting"/>
-				<Prp name="relpath" type="S" value="5_19_2020_4_59 PM_48_998\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0006">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43973.1285422685"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{4287C84F-771C-4339-A1F6-08C805AB1F1F}"/>
-				<Prp name="nameofroot" type="S" value="SmokeTesting"/>
-				<Prp name="relpath" type="S" value="5_22_2020_3_05 AM_06_52\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-		</Node>
+		<Node name="logs"/>
 		<Prp name="signature" type="S" value="{6511DB44-2372-47B8-8349-ADA0DB4D9E14}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>
