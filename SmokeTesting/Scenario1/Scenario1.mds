@@ -24,6 +24,10 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{D1A41F9A-3398-4824-9B86-E641728BB3B3}">
 		<children>
+			<testItem name="Set Parameterized Variables" key="{85A8971C-238B-44E7-B79D-EB0DCA210DF5}" group="False" enabled="True" testMoniker="{D0E3696C-4C19-4822-A763-2E70C0B7889B}Main" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+				<testParameters />
+				<children />
+			</testItem>
 			<testItem name="Test" key="{FF0984F5-476F-47CE-B57B-1263A40025D8}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 				<testParameters />
 				<children>
