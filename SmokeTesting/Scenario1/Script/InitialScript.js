@@ -10,8 +10,9 @@
   const serverUrlParamName = 'appUrl';
   const serverUrlParamValue = GetCmdParamValue(commandLineParams, serverUrlParamName, delimiter);
   
-  if (Project.Variables.VariableExists("Page") && serverUrlParamValue)
+  if (Project.Variables.VariableExists("Page"))
   {
+    //&& serverUrlParamValue
     Project.Variables.Page = serverUrlParamValue;
   }
 }

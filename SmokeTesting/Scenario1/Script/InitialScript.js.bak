@@ -12,7 +12,6 @@
   
   if (Project.Variables.VariableExists("Page") && serverUrlParamValue)
   {
-    Log.Message(serverUrlParamValue);
     Project.Variables.Page = serverUrlParamValue;
   }
 }
