@@ -1,6 +1,6 @@
 ﻿function Main() {
   const commandLineParams = BuiltIn.ParamStr(BuiltIn.ParamCount() - 1).split(';');
-  const delimiter = ':';
+  const delimiter = '=';
   
   if (!Array.isArray(commandLineParams) || !commandLineParams)
   {
@@ -10,9 +10,8 @@
   const serverUrlParamName = 'appUrl';
   const serverUrlParamValue = GetCmdParamValue(commandLineParams, serverUrlParamName, delimiter);
   
-  if (Project.Variables.VariableExists("Page"))
+  if (Project.Variables.VariableExists("Page") && serverUrlParamValue)
   {
-    //&& serverUrlParamValue
     Project.Variables.Page = serverUrlParamValue;
   }
 }
