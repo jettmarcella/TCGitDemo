@@ -13,6 +13,7 @@
 
 
 function GetCmdParamValue(cmdParams, paramName, delimiter) {
-  let rawValue = cmdParams.some(element => element.includes(paramName));
-  return rawValue.split(delimiter)[1];
+  let rawValue = cmdParams.find(element => element.includes(paramName));
+  return rawValue;
+  //.split(delimiter)[1];
 }
