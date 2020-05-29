@@ -2,7 +2,7 @@
   const commandLineParams = BuiltIn.ParamStr(BuiltIn.ParamCount() - 1).split(';');
   const delimiter = ':';
   
-  if (Array(.isArray(commandLineParams) || !commandLineParams)
+  if (Array.isArray(commandLineParams) || !commandLineParams)
   {
     return;
   }
