@@ -2,6 +2,11 @@
   const commandLineParams = BuiltIn.ParamStr(BuiltIn.ParamCount() - 1).split(';');
   const delimiter = ':';
   
+  if (Array.isArray(commandLineParams) || !commandLineParams)
+  {
+    return;
+  }
+  
   const serverUrlParamName = 'appUrl';
   const serverUrlParamValue = GetCmdParamValue(commandLineParams, serverUrlParamName, delimiter);
   
@@ -15,5 +20,4 @@
 function GetCmdParamValue(cmdParams, paramName, delimiter) {
   let rawValue = cmdParams.find(element => element.includes(paramName)).split(delimiter);
   return rawValue[1];
-  //.split(delimiter)[1];
 }
